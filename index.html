@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Planet Miner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+background:#0b0f2a;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+button{
+padding:15px 30px;
+font-size:18px;
+background:gold;
+border:none;
+border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🚀 Planet Miner</h1>
+
+<p>Welcome to the Planet Miner crypto mining game.</p>
+
+<img src="Gemini_Generated_Image_prjsmlprjsmlprjs.png" width="300">
+
+<br><br>
+
+<button onclick="mine()">Start Mining</button>
+
+<p id="coins">Coins: 0</p>
+
+<script>
+let coins = 0;
+
+function mine(){
+coins += 10;
+document.getElementById("coins").innerText = "Coins: " + coins;
+}
+</script>
+
+</body>
+</html>
